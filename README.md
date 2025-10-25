@@ -362,7 +362,7 @@ You can schedule a recording manually using the `Record dialog`, accessible via 
 - **Start & Finish Time:** A precise date and time picker for the recording's start and end.
 
 <p align="center">
-  <img src="docs/images/v1.0/dark-record-dialog.png"><br>
+  <img src="docs/images/v1.0/radiorec-record-dialog.png"><br>
   <small>Record dialog (dark theme).</small>
 </p>
 
