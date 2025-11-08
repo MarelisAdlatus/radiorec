@@ -98,7 +98,8 @@ This version does not need to be installed. You can run it from any folder, incl
 3. **Right-click** the `.zip` file and select **"Extract All..."**.
 4. Choose a location for the folder (your `Downloads` folder is fine) and click **"Extract"**.
 5. A new folder named `radiorec-1.0-image` will be created. Open this folder.
-6. Inside, **double-click** the `radiorec.exe` (or `radiorec`) file to start the application.
+6. Inside, open the **RadioRec** subfolder.
+7. In this folder, **double-click** the `RadioRec.exe` (or `RadioRec`) file to start the application.
 
 -----
 
@@ -106,30 +107,11 @@ This version does not need to be installed. You can run it from any folder, incl
 
 We offer a few ways to get RadioRec running on your Linux system. This guide will help you choose the right file and install it.
 
-On the Releases page, you will see folders for different operating systems (like `ubuntu-desktop...`, `fedora-workstation...`, etc.). **Please open the folder that matches your Linux distribution** to find the correct files.
-
-#### How to Choose Your File (Linux)
-
-Inside your distribution's folder, you'll find a few files. Here's how to pick the right one:
-
-- **Option 1: `.deb` or `.rpm` (Recommended)**
-  - **What it is:** A standard installation package, just like an `.exe` on Windows. This is the best choice for most users.
-    - **Use this file...**
-      - `radiorec_1.0-1_amd64.deb`: If you use **Ubuntu, Kubuntu, Xubuntu, Lubuntu, Linux Mint,** or **Debian**.
-      - `radiorec-1.0-1.x86_64.rpm`: If you use **Fedora, openSUSE,** or **Rocky Linux**.
-    - **Why?** The app will be properly installed, show up in your application menu, and be easy to update or uninstall later.
-
-- **Option 2: `.tar.gz` or `.zip` (Portable)**
-  - **What it is:** A simple compressed folder. It does not install anything; you just extract it and run the program directly.
-    - **Use this file...**
-      - `radiorec-1.0-image.tar.gz` (or `.zip`): If you use **any** Linux system.
-    - **Why?** It's simple, requires no installation, and doesn't need admin passwords. It's great if you just want to run the app quickly or if the installer fails.
-
 #### Option 1: `.deb` Package (Ubuntu, Mint, Debian)
 
 This is the easiest and most recommended method for these systems.
 
-> Method A: Graphical (Easy installation of deb package)
+##### Method A: Graphical (Easy installation of deb package)
 
 1. Download the `radiorec_1.0-1_amd64.deb` file.
 2. Open your file manager (the "Files" icon) and go to your **Downloads** folder.
@@ -146,7 +128,7 @@ This is the easiest and most recommended method for these systems.
 3. Select **"Software Install"**, **"Discover"**, or **"GDebi Package Installer"** from the list and click "Select".
 4. Now you can click "Install" as described above.
 
-> Method B: Terminal (Alternative deb package installation)
+##### Method B: Terminal (Alternative deb package installation)
 
 If you prefer using the command line:
 
@@ -169,7 +151,7 @@ If you prefer using the command line:
 
 This is the standard method for these distributions.
 
-> Method A: Graphical (Easy installation of rpm package)
+##### Method A: Graphical (Easy installation of rpm package)
 
 1. Download the `radiorec-1.0-1.x86_64.rpm` file.
 2. Open your file manager and go to your **Downloads** folder.
@@ -185,7 +167,7 @@ This is the standard method for these distributions.
 3. Select **"Software"** (or **"YaST Software"**) from the list.
 4. Click "Install".
 
-> Method B: Terminal (Alternative installation of rpm package)
+##### Method B: Terminal (Alternative installation of rpm package)
 
 1. Open your Terminal.
 2. Navigate to your Downloads folder:
@@ -216,52 +198,22 @@ A "portable" app doesn't need installation. You just extract the folder and run 
 
 1. Download the `radiorec-1.0-image.tar.gz` (or `radiorec-1.0-image.zip`) file.
 2. Go to your **Downloads** folder.
-3. **Right-click** the file and choose **"Extract Here"**.
+3. **Right-click** the file and choose **“Extract Here”**.
 4. This will create a new folder, likely named `radiorec-1.0-image`.
 5. Open this new folder.
-6. Inside, you will find the main program file. It is most likely named **`radiorec`** (it might also be `run.sh` or `AppRun`).
-7. **Double-click** the `radiorec` file to start the application!
+6. Inside, open the **RadioRec** subfolder, then the **bin** subfolder.
+7. In this folder, find the main program file named **`RadioRec`**.
+8. **Double-click** the `RadioRec` file to start the application!
 
 **Help! It won't run when I double-click!**
 If double-clicking does nothing, the file might need "permission to run". This is a common Linux security feature. It's an easy fix:
 
-1. **Right-click** the `radiorec` file (the one you tried to run).
+1. **Right-click** the `RadioRec` file (the one you tried to run).
 2. Go to **Properties**.
 3. Find the **Permissions** tab.
 4. Check the box that says **"Allow executing file as program"** or **"Is executable"**.
 5. Close the properties window.
-6. Now, try double-clicking the `radiorec` file again. It should launch!
-
-> Optional (Advanced): Run Portable App from Terminal
-
-This step is **completely optional**. It is for users who want to run the portable app from the terminal just by typing `radiorec`.
-
-1. First, move your extracted app folder (from Option 3) to a permanent location. A good, standard place is `~/Applications`.
-
-```bash
-# Create the Applications directory in your Home folder if it doesn't exist
-mkdir -p ~/Applications
-    
-# Move your app folder there and rename it to 'radiorec'
-mv ~/Downloads/radiorec-1.0-image ~/Applications/radiorec
-```
-
-2. Modern Linux systems automatically add the `~/.local/bin` directory to your "PATH" (a list of places the terminal looks for commands). Let's create this directory:
-
-```bash
-mkdir -p ~/.local/bin
-```
-
-3. Now, create a "symbolic link" (a smart shortcut) from the actual app executable to your `~/.local/bin` folder.
-
-*(This command assumes the executable inside `~/Applications/radiorec` is named `radiorec`)*
-
-```bash
-ln -s ~/Applications/radiorec/radiorec ~/.local/bin/radiorec
-```
-
-4. Close and re-open your terminal.
-5. You can now type `radiorec` and press Enter from *anywhere* to start the application!
+6. Now, try double-clicking the `RadioRec` file again. It should launch!
 
 -----
 
@@ -293,6 +245,61 @@ The main interface is split into two parts:
 2. **Program & Record Lists:** On the right, tabs show the scheduled program guide (parsed from the web) and your list of upcoming or completed recordings. Each item shows the title, comment, start/end times, and a progress bar for active items.
 
 The application can simultaneously record from multiple stations and play from a different one than the one currently being recorded.
+
+#### Main Toolbar
+
+<p align="center">
+  <img src="docs/icons/square-plus-regular-full.svg?raw=true" width="32">
+  <img src="docs/icons/folder-open-regular-full.svg?raw=true" width="32">
+  <img src="docs/icons/pen-to-square-regular-full.svg?raw=true" width="32">
+  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
+  <img src="docs/icons/play-solid-full.svg?raw=true" width="32">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="docs/icons/gear-solid-full.svg?raw=true" width="32">
+  <img src="docs/icons/circle-question-regular-full.svg?raw=true" width="32">
+</p>
+
+**Main Toolbar Icons Explained:**
+
+| Icon | Action | Description |
+|:---:|:---|:---|
+| <img src="docs/icons/square-plus-regular-full.svg?raw=true" width="32"> | **Add station** | Opens a dialog to create a new station. You can enter its name, stream URL, and then save it as a file. |
+| <img src="docs/icons/folder-open-regular-full.svg?raw=true" width="32"> | **Open station** | Allows you to load one or more previously saved station files (`.radiorec-station`) from your computer. |
+| <img src="docs/icons/pen-to-square-regular-full.svg?raw=true" width="32"> | **Edit station** | Opens a dialog to edit the properties of the currently selected station in the list. |
+| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete station** | Permanently removes the selected station from your list. |
+| <img src="docs/icons/play-solid-full.svg?raw=true" width="32"> | **Play / Stop** | Starts live playback of the selected station. The icon turns **green** while playing. Click it again to stop. |
+| <img src="docs/icons/gear-solid-full.svg?raw=true" width="32"> | **Settings** | Opens the application's settings window (e.g., where to save recordings, etc.). |
+| <img src="docs/icons/circle-question-regular-full.svg?raw=true" width="32"> | **Help** | This icon is currently inactive. |
+
+#### Program Toolbar
+
+<p align="center">
+  <img src="docs/icons/rotate-right-solid-full.svg?raw=true" width="32">
+  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
+  <img src="docs/icons/download-solid-full.svg?raw=true" width="32">
+</p>
+
+**Program Toolbar Icons Explained:**
+
+| Icon | Action | Description |
+|:---:|:---|:---|
+| <img src="docs/icons/rotate-right-solid-full.svg?raw=true" width="32"> | **Update program** | Downloads the latest broadcast schedule (EPG) for the selected station. Please wait a moment for the entire page to download. |
+| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Clear program** | Deletes **all** items from the displayed program list. This is useful when you want to fetch a completely new schedule. |
+| <img src="docs/icons/download-solid-full.svg?raw=true" width="32"> | **Schedule recording** | Select one or more shows in the list and click this icon to automatically create tasks to record them. |
+
+#### Record Toolbar
+
+<p align="center">
+  <img src="docs/icons/plus-solid-full.svg?raw=true" width="32">
+  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
+</p\>
+
+**Record Toolbar Icons Explained:**
+
+| Icon | Action | Description |
+|:---:|:---|:---|
+| <img src="docs/icons/plus-solid-full.svg?raw=true" width="32"> | **Add manual recording** | Opens a dialog where you can manually set up a recording for a specific date and time. |
+| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete recording** | Deletes the selected recording task from the list. If the recording is in progress, it will ask if you want to stop it. |
 
 ### Station Editor
 
@@ -332,6 +339,8 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
   <img src="docs/images/v1.0/radiorec-program-settings.png" width="640"><br>
   <small>Program Settings dialog: Settings (dark theme).</small>
 </p>
+
+> **Tip:** You can learn more about XPath here: [W3Schools – XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
 
 2. **Search:**
 
