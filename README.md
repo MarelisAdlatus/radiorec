@@ -250,7 +250,7 @@ The application can simultaneously record from multiple stations and play from a
 
 <p align="center">
   <img src="docs/v1.0/icons/square-plus-regular-full.svg?raw=true" width="32">
-  <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32" height="32">
+  <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32">
   <img src="docs/v1.0/icons/pen-to-square-regular-full.svg?raw=true" width="32">
   <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32">
   <img src="docs/v1.0/icons/play-solid-full.svg?raw=true" width="32">
@@ -264,7 +264,7 @@ The application can simultaneously record from multiple stations and play from a
 | Icon | Action | Description |
 |:---:|:---|:---|
 | <img src="docs/v1.0/icons/square-plus-regular-full.svg?raw=true" width="32"> | **Add station** | Opens a dialog to create a new station. You can enter its name, stream URL, and then save it as a file. |
-| <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32" height="32"> | **Open station** | Allows you to load one or more previously saved station files (`.radiorec-station`) from your computer. |
+| <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32"> | **Open station** | Allows you to load one or more previously saved station files (`.radiorec-station`) from your computer. |
 | <img src="docs/v1.0/icons/pen-to-square-regular-full.svg?raw=true" width="32"> | **Edit station** | Opens a dialog to edit the properties of the currently selected station in the list. |
 | <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete station** | Permanently removes the selected station from your list. |
 | <img src="docs/v1.0/icons/play-solid-full.svg?raw=true" width="32"> | **Play / Stop** | Starts live playback of the selected station. The icon turns **green** while playing. Click it again to stop. |
