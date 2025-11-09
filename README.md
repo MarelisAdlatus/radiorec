@@ -5,12 +5,12 @@
 Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a user-friendly interface, scheduled recording capabilities, and a powerful tool for parsing station program guides directly from websites.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-main-dark.png" width="640"><br>
+  <img src="docs/v1.0/images/main-dark.png" width="640"><br>
   <small>Dark theme</small>
 </p>
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-main-light.png" width="640"><br>
+  <img src="docs/v1.0/images/main-light.png" width="640"><br>
   <small>Light theme</small>
 </p>
 
@@ -220,7 +220,7 @@ If double-clicking does nothing, the file might need "permission to run". This i
 ## Usage & Core Components
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-icon-radiorec.svg?raw=true" width="128"><br>
+  <img src="docs/v1.0/images/icon-radiorec.svg?raw=true" width="128"><br>
   <small>RadioRec app icon<br>Double-click to launch the application.</small>
 </p>
 
@@ -229,12 +229,12 @@ If double-clicking does nothing, the file might need "permission to run". This i
 RadioRec's main interface, showing the station list and program guide.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-main-dark.png" width="640"><br>
+  <img src="docs/v1.0/images/main-dark.png" width="640"><br>
   <small>Dark theme</small>
 </p>
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-main-light.png" width="640"><br>
+  <img src="docs/v1.0/images/main-light.png" width="640"><br>
   <small>Light theme</small>
 </p>
 
@@ -249,64 +249,64 @@ The application can simultaneously record from multiple stations and play from a
 #### Main Toolbar
 
 <p align="center">
-  <img src="docs/icons/square-plus-regular-full.svg?raw=true" width="32">
-  <img src="docs/icons/folder-open-regular-full.svg?raw=true" width="32">
-  <img src="docs/icons/pen-to-square-regular-full.svg?raw=true" width="32">
-  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
-  <img src="docs/icons/play-solid-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/square-plus-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32" height="32">
+  <img src="docs/v1.0/icons/pen-to-square-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/play-solid-full.svg?raw=true" width="32">
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="docs/icons/gear-solid-full.svg?raw=true" width="32">
-  <img src="docs/icons/circle-question-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/gear-solid-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/circle-question-regular-full.svg?raw=true" width="32">
 </p>
 
 **Main Toolbar Icons Explained:**
 
 | Icon | Action | Description |
 |:---:|:---|:---|
-| <img src="docs/icons/square-plus-regular-full.svg?raw=true" width="32"> | **Add station** | Opens a dialog to create a new station. You can enter its name, stream URL, and then save it as a file. |
-| <img src="docs/icons/folder-open-regular-full.svg?raw=true" width="32"> | **Open station** | Allows you to load one or more previously saved station files (`.radiorec-station`) from your computer. |
-| <img src="docs/icons/pen-to-square-regular-full.svg?raw=true" width="32"> | **Edit station** | Opens a dialog to edit the properties of the currently selected station in the list. |
-| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete station** | Permanently removes the selected station from your list. |
-| <img src="docs/icons/play-solid-full.svg?raw=true" width="32"> | **Play / Stop** | Starts live playback of the selected station. The icon turns **green** while playing. Click it again to stop. |
-| <img src="docs/icons/gear-solid-full.svg?raw=true" width="32"> | **Settings** | Opens the application's settings window (e.g., where to save recordings, etc.). |
-| <img src="docs/icons/circle-question-regular-full.svg?raw=true" width="32"> | **Help** | This icon is currently inactive. |
+| <img src="docs/v1.0/icons/square-plus-regular-full.svg?raw=true" width="32"> | **Add station** | Opens a dialog to create a new station. You can enter its name, stream URL, and then save it as a file. |
+| <img src="docs/v1.0/icons/folder-open-regular.svg?raw=true" width="32" height="32"> | **Open station** | Allows you to load one or more previously saved station files (`.radiorec-station`) from your computer. |
+| <img src="docs/v1.0/icons/pen-to-square-regular-full.svg?raw=true" width="32"> | **Edit station** | Opens a dialog to edit the properties of the currently selected station in the list. |
+| <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete station** | Permanently removes the selected station from your list. |
+| <img src="docs/v1.0/icons/play-solid-full.svg?raw=true" width="32"> | **Play / Stop** | Starts live playback of the selected station. The icon turns **green** while playing. Click it again to stop. |
+| <img src="docs/v1.0/icons/gear-solid-full.svg?raw=true" width="32"> | **Settings** | Opens the application's settings window (e.g., where to save recordings, etc.). |
+| <img src="docs/v1.0/icons/circle-question-regular-full.svg?raw=true" width="32"> | **Help** | This icon is currently inactive. |
 
 #### Program Toolbar
 
 <p align="center">
-  <img src="docs/icons/rotate-right-solid-full.svg?raw=true" width="32">
-  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
-  <img src="docs/icons/download-solid-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/rotate-right-solid-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/download-solid-full.svg?raw=true" width="32">
 </p>
 
 **Program Toolbar Icons Explained:**
 
 | Icon | Action | Description |
 |:---:|:---|:---|
-| <img src="docs/icons/rotate-right-solid-full.svg?raw=true" width="32"> | **Update program** | Downloads the latest broadcast schedule (EPG) for the selected station. Please wait a moment for the entire page to download. |
-| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Clear program** | Deletes **all** items from the displayed program list. This is useful when you want to fetch a completely new schedule. |
-| <img src="docs/icons/download-solid-full.svg?raw=true" width="32"> | **Schedule recording** | Select one or more shows in the list and click this icon to automatically create tasks to record them. |
+| <img src="docs/v1.0/icons/rotate-right-solid-full.svg?raw=true" width="32"> | **Update program** | Downloads the latest broadcast schedule (EPG) for the selected station. Please wait a moment for the entire page to download. |
+| <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Clear program** | Deletes **all** items from the displayed program list. This is useful when you want to fetch a completely new schedule. |
+| <img src="docs/v1.0/icons/download-solid-full.svg?raw=true" width="32"> | **Schedule recording** | Select one or more shows in the list and click this icon to automatically create tasks to record them. |
 
 #### Record Toolbar
 
 <p align="center">
-  <img src="docs/icons/plus-solid-full.svg?raw=true" width="32">
-  <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/plus-solid-full.svg?raw=true" width="32">
+  <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32">
 </p\>
 
 **Record Toolbar Icons Explained:**
 
 | Icon | Action | Description |
 |:---:|:---|:---|
-| <img src="docs/icons/plus-solid-full.svg?raw=true" width="32"> | **Add manual recording** | Opens a dialog where you can manually set up a recording for a specific date and time. |
-| <img src="docs/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete recording** | Deletes the selected recording task from the list. If the recording is in progress, it will ask if you want to stop it. |
+| <img src="docs/v1.0/icons/plus-solid-full.svg?raw=true" width="32"> | **Add manual recording** | Opens a dialog where you can manually set up a recording for a specific date and time. |
+| <img src="docs/v1.0/icons/trash-can-regular-full.svg?raw=true" width="32"> | **Delete recording** | Deletes the selected recording task from the list. If the recording is in progress, it will ask if you want to stop it. |
 
 ### Station Editor
 
 Stations are saved as a file in a directory on the disk.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-icon-station.svg?raw=true" width="128"><br>
+  <img src="docs/v1.0/images/icon-station.svg?raw=true" width="128"><br>
   <small>Station icon<br>Double-click to open in RadioRec application.</small>
 </p>
 
@@ -317,7 +317,7 @@ Adding or editing a station opens the `Station dialog`. Here, you can set:
 - **Recording Method:** (Manual, Stream, Program - currently, manual is the primary method for scheduling).
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-station-dialog.png" width="450"><br>
+  <img src="docs/v1.0/images/station-dialog.png" width="450"><br>
   <small>Station dialog (dark theme).</small>
 </p>
 
@@ -336,7 +336,7 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
 - **Time Attributes:** Specify the HTML attribute names (e.g., `data-start`, `data-end`) and the **time format** (e.g., `yyyy-MM-dd'T'HH:mm:ss`) to extract start and finish times.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-program-settings.png" width="640"><br>
+  <img src="docs/v1.0/images/program-settings.png" width="640"><br>
   <small>Program Settings dialog: Settings (dark theme).</small>
 </p>
 
@@ -348,7 +348,7 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
 - The source code is displayed with syntax highlighting to help you find the correct elements and attributes for your rules. You can even change the editor's color theme.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-program-search.png" width="640"><br>
+  <img src="docs/v1.0/images/program-search.png" width="640"><br>
   <small>Program Settings dialog: Search (dark theme).</small>
 </p>
 
@@ -358,7 +358,7 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
 - The results are displayed in a table, showing you exactly what data will be imported. This lets you fine-tune your selectors until they are perfect.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-program-parse.png" width="640"><br>
+  <img src="docs/v1.0/images/program-parse.png" width="640"><br>
   <small>Program Settings dialog: Parse (dark theme).</small>
 </p>
 
@@ -371,7 +371,7 @@ You can schedule a recording manually using the `Record dialog`, accessible via 
 - **Start & Finish Time:** A precise date and time picker for the recording's start and end.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-record-dialog.png"><br>
+  <img src="docs/v1.0/images/record-dialog.png"><br>
   <small>Record dialog (dark theme).</small>
 </p>
 
@@ -391,7 +391,7 @@ The main `Settings dialog` provides deep customization, organized into four tabs
 - **Temp Directory:** A folder for temporary files during recording.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-settings-dialog-file.png"><br>
+  <img src="docs/v1.0/images/settings-dialog-file.png"><br>
   <small>Settings dialog: File (dark theme).</small>
 </p>
 
@@ -402,7 +402,7 @@ The main `Settings dialog` provides deep customization, organized into four tabs
 - **Append to Record Time:** Automatically add a buffer (e.g., `00m05s`) to the end of scheduled recordings.
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-settings-dialog-time.png"><br>
+  <img src="docs/v1.0/images/settings-dialog-time.png"><br>
   <small>Settings dialog: Time (dark theme).</small>
 </p>
 
@@ -412,7 +412,7 @@ The main `Settings dialog` provides deep customization, organized into four tabs
 - **Browser Command:** **(Crucial for parsing)** The command-line arguments needed to run the browser in headless mode and dump the page's HTML (e.g., `--headless --dump-dom`).
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-settings-dialog-browser.png"><br>
+  <img src="docs/v1.0/images/settings-dialog-browser.png"><br>
   <small>Settings dialog: Browser (dark theme).</small>
 </p>
 
@@ -423,7 +423,7 @@ The main `Settings dialog` provides deep customization, organized into four tabs
 - **Size:** Change the global font size for the UI (Small, Medium, Large).
 
 <p align="center">
-  <img src="docs/images/v1.0/radiorec-settings-dialog-appearance.png"><br>
+  <img src="docs/v1.0/images/settings-dialog-appearance.png"><br>
   <small>Settings dialog: Appearance (dark theme).</small>
 </p>
 
