@@ -87,6 +87,8 @@ The installers for this application were created using [Java Build Farm](https:/
 1. Go to the **[Releases](https://github.com/MarelisAdlatus/radiorec/releases)** page to find all download files.
 2. Find the section below that matches your operating system (Windows or Linux) and follow the detailed instructions.
 
+> The installation packages were created using a Java Build Farm. More information can be found in the repository on **[GitHub](https://github.com/MarelisAdlatus/java-build-farm)**.
+
 -----
 
 ### Windows 10 / 11 Installation
