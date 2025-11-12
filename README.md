@@ -519,8 +519,8 @@ Example outputs for different formats:
 
 | Country | Station File | Broadcast format | Station Name | Website |
 |---------|--------------|:------:|--------------|---------|
-| Czechia | [`ČRo Dvojka.radiorec-station`](https://raw.githubusercontent.com/MarelisAdlatus/radiorec/main/docs/v1.0/stations/%C4%8CRo%20Dvojka.radiorec-station) | MP3 | Český rozhlas Dvojka   | [dvojka.rozhlas.cz](https://dvojka.rozhlas.cz) |
-| Czechia | [`ČRo Vltava.radiorec-station`](https://raw.githubusercontent.com/MarelisAdlatus/radiorec/main/docs/v1.0/stations/%C4%8CRo%20Vltava.radiorec-station) | MP3 | Český rozhlas Vltava   | [vltava.rozhlas.cz](https://vltava.rozhlas.cz) |
+| Czechia | [`ČRo Dvojka.radiorec-station`](https://marelis.cz/download/radiorec/stations/%C4%8CRo%20Dvojka.radiorec-station) | MP3 | Český rozhlas Dvojka   | [dvojka.rozhlas.cz](https://dvojka.rozhlas.cz) |
+| Czechia | [`ČRo Vltava.radiorec-station`](https://marelis.cz/download/radiorec/stations/%C4%8CRo%20Vltava.radiorec-station) | MP3 | Český rozhlas Vltava   | [vltava.rozhlas.cz](https://vltava.rozhlas.cz) |
 
 -----
 
