@@ -19,6 +19,7 @@ The installers for this application were created using [Java Build Farm](https:/
 ## Table of Contents
 
 - [Key Features](#key-features)
+- [Planned Features](#planned-features)
 - [Installation](#installation)
   - [Windows 10 / 11 Installation](#windows-10--11-installation)
     - [Option 1: Installer (Recommended)](#option-1-installer-recommended)
@@ -33,6 +34,7 @@ The installers for this application were created using [Java Build Farm](https:/
   - [Advanced Program Guide Parser](#advanced-program-guide-parser)
   - [Recording Dialog](#recording-dialog)
 - [Application Settings](#application-settings)
+- [Available Radio Stations](#available-radio-stations)
 - [Technologies Used](#technologies-used)
 - [License](#license)
 
@@ -55,9 +57,21 @@ The installers for this application were created using [Java Build Farm](https:/
 
 - **Modern UI Themes:** Built with the `FlatLaf` look and feel, offering both **Light** and **Dark** modes.
 
-- **Multilingual Support:** The application interface supports multiple languages, which can be changed in the settings.
+- **Multilingual Support:** The application interface supports multiple languages, which can be changed in the settings. Currently supported languages: English, Čeština.
 
 - **Bundled JRE:** The installer/package includes its own Java Runtime, so no separate Java installation is required.
+
+-----
+
+## Planned Features
+
+- **Support for additional formats** beyond MP3.  
+- **Station-specific saving options**: store recordings by stream or by program.  
+- **Improved program analysis** in the dialog interface.  
+- **Preview of program and recording items** before starting recording.  
+- **Editing of MP3 tags** for recorded files.  
+
+> These features are under development and will be added in future releases.
 
 -----
 
@@ -375,6 +389,26 @@ You can schedule a recording manually using the `Record dialog`, accessible via 
   <small>Record dialog (dark theme).</small>
 </p>
 
+<div align="center">
+
+Supported placeholders in custom file names:
+
+| Placeholder | Description |
+|-------------|-------------|
+| `{year}`    | 4-digit year of the recording (e.g., `2025`) |
+| `{month}`   | 2-digit month (e.g., `11`) |
+| `{day}`     | 2-digit day (e.g., `12`) |
+| `{hour}`    | Hour in 24-hour format (e.g., `14`) |
+| `{minute}`  | Minute (e.g., `05`) |
+| `{second}`  | Second (e.g., `32`) |
+| `{station}` | Station name |
+| `{title}`   | Program name from the recording dialog |
+| `{comment}` | Program comment from the recording dialog |
+| `{start}`   | Recording start time in `HHmmss` format (hours, minutes, seconds) |
+| `{finish}`  | Recording finish time in `HHmmss` format (hours, minutes, seconds) |
+
+</div>
+
 -----
 
 ## Application Settings
@@ -395,6 +429,27 @@ The main `Settings dialog` provides deep customization, organized into four tabs
   <small>Settings dialog: File (dark theme).</small>
 </p>
 
+<div align="center">
+
+Available placeholders for folder and file names:
+
+| Placeholder | Description |
+|-------------|-------------|
+| `{year}`    | 4-digit year of the recording (e.g., `2025`) |
+| `{month}`   | 2-digit month (e.g., `11`) |
+| `{day}`     | 2-digit day (e.g., `12`) |
+| `{hour}`    | Hour in 24-hour format (e.g., `14`) |
+| `{minute}`  | Minute (e.g., `05`) |
+| `{second}`  | Second (e.g., `32`) |
+| `{station}` | Station name |
+| `{title}`   | Program name (from the station's program guide) |
+| `{comment}` | Program commentary (from the station's program guide) |
+| `{start}`   | Recording start time in `HHmmss` format (hours, minutes, seconds) |
+| `{finish}`  | Recording finish time in `HHmmss` format (hours, minutes, seconds) |
+
+</div>
+
+
 2. **Time:**
 
 - **Time Zone:** The time zone your application will use to display all times.
@@ -405,6 +460,33 @@ The main `Settings dialog` provides deep customization, organized into four tabs
   <img src="docs/v1.0/images/settings-dialog-time.png"><br>
   <small>Settings dialog: Time (dark theme).</small>
 </p>
+
+<div align="center">
+
+**Time Format**
+
+Description of fragments:
+
+| Symbol | Meaning              | Example |
+|--------|----------------------|---------|
+| `dd`   | Day of the month     | 12      |
+| `MM`   | Month of the year    | 11      |
+| `yy`   | Year (last 2 digits) | 25      |
+| `yyyy` | Year (4 digits)      | 2025    |
+| `HH`   | Hour (24-hour)       | 14      |
+| `mm`   | Minute               | 07      |
+| `ss`   | Second               | 32      |
+
+Example outputs for different formats:
+
+| Format        | Example Output      | Description |
+|---------------|---------------------|-------------|
+| `dd.MM.yy HH:mm:ss` | 12.11.25 14:07:32 | Day.Month.Year Hour:Minute:Second |
+| `yyyy-MM-dd HH:mm` | 2025-11-12 14:07   | Full year, Month, Day, Hour:Minute |
+
+> Users can freely combine these fragments to define their own time display format.
+
+</div>
 
 3. **Browser:**
 
@@ -426,6 +508,19 @@ The main `Settings dialog` provides deep customization, organized into four tabs
   <img src="docs/v1.0/images/settings-dialog-appearance.png"><br>
   <small>Settings dialog: Appearance (dark theme).</small>
 </p>
+
+-----
+
+## Available Radio Stations
+
+- These are some of the radio stations currently used with **RadioRec**.  
+- You can also create your own station files.  
+- If you want, you can send your station file to the author [adlatus@marelis.cz](mailto:adlatus@marelis.cz), and it may be added to the official list.
+
+| Country | Station File | Broadcast format | Station Name | Website |
+|---------|--------------|:------:|--------------|---------|
+| Czechia | [`ČRo Dvojka.radiorec-station`](https://raw.githubusercontent.com/MarelisAdlatus/radiorec/main/docs/v1.0/stations/%C4%8CRo%20Dvojka.radiorec-station) | MP3 | Český rozhlas Dvojka   | [dvojka.rozhlas.cz](https://dvojka.rozhlas.cz) |
+| Czechia | [`ČRo Vltava.radiorec-station`](https://raw.githubusercontent.com/MarelisAdlatus/radiorec/main/docs/v1.0/stations/%C4%8CRo%20Vltava.radiorec-station) | MP3 | Český rozhlas Vltava   | [vltava.rozhlas.cz](https://vltava.rozhlas.cz) |
 
 -----
 
