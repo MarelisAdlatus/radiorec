@@ -91,7 +91,7 @@ Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a us
 
 ### Windows 10 / 11 Installation
 
-On the Releases page, find the `windows-10-pro...` or `windows-11-pro...` folder. You have two options.
+We offer a few ways to get RadioRec running on your Windows system. This guide will help you choose the right file and install it.
 
 #### Option 1: Installer (Recommended)
 
