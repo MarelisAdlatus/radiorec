@@ -14,8 +14,6 @@ Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a us
   <small>Light theme</small>
 </p>
 
-The installers for this application were created using [Java Build Farm](https://github.com/MarelisAdlatus/java-build-farm) scripts on a "farm" with virtual machines in the Proxmox Virtual Environment.
-
 ## Table of Contents
 
 - [Key Features](#key-features)
