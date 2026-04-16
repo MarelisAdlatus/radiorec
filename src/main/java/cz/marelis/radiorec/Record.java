@@ -165,7 +165,7 @@ public class Record extends ResponseNode
      */
     public final static int RECORD_DONE = 6;
 
-    RecordWorker recordWorker;
+    RecordTask recordWorker;
 
     /**
      *
@@ -197,8 +197,12 @@ public class Record extends ResponseNode
      */
     public void startRecording() {
         setStatus(Record.RECORD_STARTUP);
-        recordWorker = new RecordWorker(this);
+        recordWorker = createRecordTask();
         recordWorker.execute();
+    }
+
+    protected RecordTask createRecordTask() {
+        return new RecordWorker(this);
     }
 
     /**

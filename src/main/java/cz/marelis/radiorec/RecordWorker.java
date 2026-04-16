@@ -40,7 +40,7 @@ import javax.swing.SwingWorker;
  *
  * @author Marek Liška <adlatus@marelis.cz>
  */
-public class RecordWorker extends SwingWorker<Void, ResponseEvent> {
+public class RecordWorker extends SwingWorker<Void, ResponseEvent> implements RecordTask {
 
     private final Record record;
     private final String link;
