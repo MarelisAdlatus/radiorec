@@ -1,5 +1,7 @@
 # RadioRec
 
+<!-- markdownlint-disable MD033 MD045 MD060 -->
+
 **RadioRec** is a multi-platform desktop application for playing and recording internet radio streams.
 
 Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a user-friendly interface, scheduled recording capabilities, and a powerful tool for parsing station program guides directly from websites.
@@ -68,6 +70,9 @@ Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a us
 - **Improved program analysis** in the dialog interface.  
 - **Preview of program and recording items** before starting recording.  
 - **Editing of MP3 tags** for recorded files.  
+- **Gradual interface refresh** to make future updates smoother while keeping the app familiar for current users.  
+- **Improved recording reliability** with clearer behavior during long background recordings.  
+- **Better list workflow** for stations, programs, and records (including smoother reordering and editing).  
 
 > These features are under development and will be added in future releases.
 
@@ -153,13 +158,13 @@ If you prefer using the command line:
   cd ~/Downloads
   ```
 
-3. Run the following command. `apt` will automatically handle any missing dependencies.
+1. Run the following command. `apt` will automatically handle any missing dependencies.
 
   ```bash
   sudo apt install ./radiorec_1.0-1_amd64.deb
   ```
 
-4. Enter your password when prompted and press `Y` to confirm.
+1. Enter your password when prompted and press `Y` to confirm.
 
 #### Option 2: `.rpm` Package (Fedora, openSUSE, Rocky)
 
@@ -190,7 +195,7 @@ This is the standard method for these distributions.
 cd ~/Downloads
 ```
 
-3. Run the command that matches **your** distribution:
+1. Run the command that matches **your** distribution:
 
 - **For Fedora or Rocky Linux (using `dnf`):**
 
@@ -204,7 +209,7 @@ sudo dnf install ./radiorec-1.0-1.x86_64.rpm
 sudo zypper install ./radiorec-1.0-1.x86_64.rpm
 ```
 
-4. Enter your password and press `Y` to confirm.
+1. Enter your password and press `Y` to confirm.
 
 #### Option 3: Portable `.tar.gz` / `.zip` (All Linux)
 
@@ -356,7 +361,7 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
 
 > **Tip:** You can learn more about XPath here: [W3Schools – XPath Tutorial](https://www.w3schools.com/xml/xpath_intro.asp)
 
-2. **Search:**
+1. **Search:**
 
 - Click **"Get Source"** to download the HTML of the program page.
 - The source code is displayed with syntax highlighting to help you find the correct elements and attributes for your rules. You can even change the editor's color theme.
@@ -366,7 +371,7 @@ This is RadioRec's most powerful feature, allowing you to scrape program data fr
   <small>Program Settings dialog: Search (dark theme).</small>
 </p>
 
-3. **Parse:**
+1. **Parse:**
 
 - Click **"Parse"** to test your rules from the "Settings" tab on the downloaded HTML.
 - The results are displayed in a table, showing you exactly what data will be imported. This lets you fine-tune your selectors until they are perfect.
@@ -448,9 +453,7 @@ Available placeholders for folder and file names:
 | `{finish}`  | Recording finish time in `HHmmss` format (hours, minutes, seconds) |
 
 </div>
-
-
-2. **Time:**
+1. **Time:**
 
 - **Time Zone:** The time zone your application will use to display all times.
 - **Time Format:** A custom format for displaying dates and times.
@@ -463,7 +466,7 @@ Available placeholders for folder and file names:
 
 <div align="center">
 
-**Time Format**
+### Time Format
 
 Description of fragments:
 
@@ -488,7 +491,7 @@ Example outputs for different formats:
 
 </div>
 
-3. **Browser:**
+1. **Browser:**
 
 - **Web Browser Path:** The file path to your web browser's executable (e.g., `chrome.exe`).
 - **Browser Command:** **(Crucial for parsing)** The command-line arguments needed to run the browser in headless mode and dump the page's HTML (e.g., `--headless --dump-dom`).
@@ -498,7 +501,7 @@ Example outputs for different formats:
   <small>Settings dialog: Browser (dark theme).</small>
 </p>
 
-4. **Appearance:**
+1. **Appearance:**
 
 - **Language:** Choose the application's display language.
 - **Theme:** Switch between **Light** and **Dark** UI themes.
