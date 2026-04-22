@@ -2,4 +2,5 @@
 *.log
 *.class
 /.ai/
+/.codex/
 /.github/
