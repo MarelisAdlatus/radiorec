@@ -1,6 +1,0 @@
-{
-  "python.defaultInterpreterPath": "${env:USERPROFILE}\\scoop\\apps\\python\\current\\python.exe",
-  "terminal.integrated.env.windows": {
-    "PATH": "${env:USERPROFILE}\\scoop\\apps\\python\\current;${env:USERPROFILE}\\scoop\\apps\\python\\current\\Scripts;${env:USERPROFILE}\\scoop\\apps\\libreoffice\\current\\LibreOffice\\program;${env:PATH}"
-  }
-}
