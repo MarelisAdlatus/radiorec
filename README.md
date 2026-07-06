@@ -6,6 +6,14 @@
 
 Written in Java (using Apache NetBeans) with a Swing-based GUI, it features a user-friendly interface, scheduled recording capabilities, and a powerful tool for parsing station program guides directly from websites.
 
+## Development status
+
+The current stable public release line is **1.x**.
+
+Version **2.0** is under active development in the `develop/2.0` branch. This
+branch is used for the gradual JavaFX UI migration and related cleanup work.
+Until 2.0 is released, users should prefer the latest stable 1.x release.
+
 <p align="center">
   <img src="docs/v1.0/images/main-dark.png" width="640"><br>
   <small>Dark theme</small>
