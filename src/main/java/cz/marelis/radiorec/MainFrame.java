@@ -825,7 +825,6 @@ public class MainFrame extends JFrame
     private void settingsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_settingsButtonActionPerformed
         SettingsDialog dialog = new SettingsDialog(this);
         dialog.setModal(true);
-        dialog.setAlwaysOnTop(true);
         dialog.setLocationRelativeTo(null);
         dialog.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         dialog.setVisible(true);

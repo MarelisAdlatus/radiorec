@@ -1,0 +1,113 @@
+/*
+ * Shared JavaFX UI theme for the migration period.
+ * Keep close to the current Swing FlatLightLaf appearance.
+ */
+/* stylelint-disable property-no-vendor-prefix, property-no-unknown */
+.root {
+    -fx-base: #f7f7f7;
+    background: #f7f7f7;
+    -fx-background: #f7f7f7;
+    -fx-control-inner-background: #ffffff;
+    color: #222222;
+    -fx-text-fill: #222222;
+    -fx-accent: #2675bf;
+    -fx-focus-color: #2675bf;
+    -fx-faint-focus-color: #2675bf2e;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    -fx-font-family: "Segoe UI", "Arial", sans-serif;
+}
+
+.label,
+.check-box,
+.tab-label,
+.button,
+.combo-box-base {
+    color: #222222;
+    -fx-text-fill: #222222;
+}
+
+.tab-pane,
+.tab-content-area,
+.grid-pane,
+.v-box,
+.h-box {
+    background-color: #f7f7f7;
+    -fx-background-color: #f7f7f7;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    background-color: #f7f7f7;
+    -fx-background-color: #f7f7f7;
+}
+
+.tab {
+    background-color: #eeeeee;
+    -fx-background-color: #eeeeee;
+    border-color: #c7c7c7;
+    -fx-border-color: #c7c7c7;
+    border-radius: 4px 4px 0 0;
+    -fx-border-radius: 4px 4px 0 0;
+}
+
+.tab:hover {
+    background-color: #f5f5f5;
+    -fx-background-color: #f5f5f5;
+}
+
+.tab:selected {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+}
+
+.text-field,
+.combo-box-base {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    border-color: #c7c7c7;
+    -fx-border-color: #c7c7c7;
+    border-radius: 4px;
+    -fx-border-radius: 4px;
+    color: #222222;
+    -fx-text-fill: #222222;
+}
+
+.text-field:focused,
+.combo-box-base:focused {
+    border-color: #2675bf;
+    -fx-border-color: #2675bf;
+}
+
+.button {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    border-color: #c7c7c7;
+    -fx-border-color: #c7c7c7;
+    border-radius: 4px;
+    -fx-border-radius: 4px;
+    color: #222222;
+    -fx-text-fill: #222222;
+}
+
+.button:hover {
+    background-color: #f2f2f2;
+    -fx-background-color: #f2f2f2;
+}
+
+.button:pressed {
+    background-color: #e5e5e5;
+    -fx-background-color: #e5e5e5;
+}
+
+.combo-box .list-cell {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    color: #222222;
+    -fx-text-fill: #222222;
+}
+
+.combo-box-popup .list-view {
+    background-color: #ffffff;
+    -fx-background-color: #ffffff;
+    border-color: #c7c7c7;
+    -fx-border-color: #c7c7c7;
+}
