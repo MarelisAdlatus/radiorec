@@ -1,7 +1,32 @@
+// META-INSTRUCTIONS: VSCODE-EXTENSIONS; SOURCE: .vscode\extensions.json
 {
   "recommendations": [
+    "bierner.github-markdown-preview",
+    "bierner.markdown-emoji",
+    "bmewburn.vscode-intelephense-client",
+    "caiqichang.vscode-translation",
+    "continue.continue",
+    "dart-code.flutter",
+    "davidanson.vscode-markdownlint",
+    "fwcd.kotlin",
+    "google.arb-editor",
+    "mads-hartmann.bash-ide-vscode",
+    "mechatroner.rainbow-csv",
+    "ms-ceintl.vscode-language-pack-cs",
+    "ms-vscode-remote.remote-ssh",
+    "ms-vscode-remote.remote-ssh-edit",
+    "ms-vscode-remote.remote-wsl",
+    "ms-vscode.cmake-tools",
+    "ms-vscode.cpp-devtools",
+    "ms-vscode.powershell",
+    "ms-vscode.remote-explorer",
+    "openai.chatgpt",
+    "plustimeit.php-file-refactoring",
+    "shd101wyy.markdown-preview-enhanced",
+    "tintrinh.php-refactor",
+    "tomoki1207.pdf",
+    "vscjava.vscode-gradle",
     "vscjava.vscode-java-pack",
-    "vscjava.vscode-maven",
-    "davidanson.vscode-markdownlint"
+    "wordpresstoolbox.wordpress-toolbox"
   ]
 }
