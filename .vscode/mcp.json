@@ -1,4 +1,4 @@
-// META-INSTRUCTIONS: VSCODE-MCP; SOURCE: .vscode\mcp.json
+// META-INSTRUCTIONS: VSCODE-MCP; SOURCE: .sync\github\radiorec\.vscode\mcp.json
 {
   "servers": {
     "github": {
