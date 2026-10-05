@@ -7,3 +7,5 @@
 /.github/
 /.vscode/settings.json
 /.idea/
+/.work/*
+!/.work/.gitkeep
