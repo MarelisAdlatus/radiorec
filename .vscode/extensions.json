@@ -1,8 +1,0 @@
-// META-INSTRUCTIONS: VSCODE-EXTENSIONS; SOURCE: .sync\github\radiorec\.vscode\extensions.json
-{
-  "recommendations": [
-    "davidanson.vscode-markdownlint",
-    "vscjava.vscode-gradle",
-    "vscjava.vscode-java-pack"
-  ]
-}

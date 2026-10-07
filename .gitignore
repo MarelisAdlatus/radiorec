@@ -1,11 +1,4 @@
 /target/
 *.log
 *.class
-/AGENTS.md
-/.ai/
-/.codex/
-/.github/
-/.vscode/settings.json
 /.idea/
-/.work/*
-!/.work/.gitkeep
