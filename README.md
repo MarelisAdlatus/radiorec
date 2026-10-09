@@ -563,4 +563,8 @@ This project is built with **Java 17** and managed using **Apache Maven**. It co
 
 This project is licensed under the [Apache License 2.0](LICENSE).
 
+The bundled Font Awesome Free icon fonts have their own SIL OFL 1.1
+license. The [font notices and license](src/main/resources/cz/marelis/radiorec/fonts/README.md)
+are included alongside the fonts in the application's resources.
+
 :arrow_up: [Back to top](#top)
